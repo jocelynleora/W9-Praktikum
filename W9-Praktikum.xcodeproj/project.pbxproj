@@ -14,6 +14,8 @@
 		04AFC81C2AFDB84B004883BD /* W9_PraktikumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AFC81B2AFDB84B004883BD /* W9_PraktikumTests.swift */; };
 		04AFC8262AFDB84B004883BD /* W9_PraktikumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AFC8252AFDB84B004883BD /* W9_PraktikumUITests.swift */; };
 		04AFC8282AFDB84B004883BD /* W9_PraktikumUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AFC8272AFDB84B004883BD /* W9_PraktikumUITestsLaunchTests.swift */; };
+		04AFC8392AFDBEA1004883BD /* MTGCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AFC8382AFDBEA1004883BD /* MTGCard.swift */; };
+		04AFC83B2AFDBF1C004883BD /* WOT-Scryfall.json in Resources */ = {isa = PBXBuildFile; fileRef = 04AFC83A2AFDBF1C004883BD /* WOT-Scryfall.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,9 @@
 		04AFC8212AFDB84B004883BD /* W9-PraktikumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "W9-PraktikumUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04AFC8252AFDB84B004883BD /* W9_PraktikumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = W9_PraktikumUITests.swift; sourceTree = "<group>"; };
 		04AFC8272AFDB84B004883BD /* W9_PraktikumUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = W9_PraktikumUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		04AFC8382AFDBEA1004883BD /* MTGCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTGCard.swift; sourceTree = "<group>"; };
+		04AFC83A2AFDBF1C004883BD /* WOT-Scryfall.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "WOT-Scryfall.json"; path = "../../../WOT-Scryfall.json"; sourceTree = "<group>"; };
+		04AFC83C2AFDBF2C004883BD /* WOT-Scryfall.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "WOT-Scryfall.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +79,7 @@
 		04AFC7FE2AFDB849004883BD = {
 			isa = PBXGroup;
 			children = (
+				04AFC83A2AFDBF1C004883BD /* WOT-Scryfall.json */,
 				04AFC8092AFDB849004883BD /* W9-Praktikum */,
 				04AFC81A2AFDB84B004883BD /* W9-PraktikumTests */,
 				04AFC8242AFDB84B004883BD /* W9-PraktikumUITests */,
@@ -96,6 +102,8 @@
 			children = (
 				04AFC80A2AFDB849004883BD /* W9_PraktikumApp.swift */,
 				04AFC80C2AFDB849004883BD /* ContentView.swift */,
+				04AFC8382AFDBEA1004883BD /* MTGCard.swift */,
+				04AFC83C2AFDBF2C004883BD /* WOT-Scryfall.json */,
 				04AFC80E2AFDB84B004883BD /* Assets.xcassets */,
 				04AFC8102AFDB84B004883BD /* Preview Content */,
 			);
@@ -233,6 +241,7 @@
 			files = (
 				04AFC8122AFDB84B004883BD /* Preview Assets.xcassets in Resources */,
 				04AFC80F2AFDB84B004883BD /* Assets.xcassets in Resources */,
+				04AFC83B2AFDBF1C004883BD /* WOT-Scryfall.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04AFC80D2AFDB849004883BD /* ContentView.swift in Sources */,
+				04AFC8392AFDBEA1004883BD /* MTGCard.swift in Sources */,
 				04AFC80B2AFDB849004883BD /* W9_PraktikumApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
